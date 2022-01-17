@@ -22,7 +22,7 @@ public class prueba {
         
         Bolsa<Golosina> bolsita= new Bolsa<Golosina>(1);
         
-        Bolsa<Jugos> bolsita_jugo= new Bolsa<Jugos>(1);
+        //Bolsa<Jugos> bolsita_jugo= new Bolsa<Jugos>(1);
 
         Chocolates c    = new Chocolates("Cadbury");
         Chocolates c1   = new Chocolates("Vizzio");
@@ -30,7 +30,7 @@ public class prueba {
         
         Golosina g1     = new Golosina("Gummy");
         
-        Jugos h1        = new Jugos("Frugos");
+        //Jugos h1        = new Jugos("Frugos");
 
         bolsa.add(c);
         bolsa.add(c1);
@@ -38,7 +38,7 @@ public class prueba {
         
         bolsita.add(g1);
         
-        bolsita_jugo.add();
+        //bolsita_jugo.add();
 
         System.out.println("=======Chocolates========");
         for (Chocolates chocolates:bolsa) {
