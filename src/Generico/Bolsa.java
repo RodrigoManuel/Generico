@@ -23,6 +23,7 @@ public class Bolsa<T> implements Iterable<T>{
             lista.add(objeto);
         }else {
             throw new RuntimeException("no caben mas");
+            //este es un comentario de prueba
         }
     }
     public Iterator<T> iterator() {
